@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    box-shadow: -5px 5px 5px black;
+}
+.note{
+    font-size: 15px;
+    color: black;
+}
+.speed_div{
+    float: left;
+}
+.disc_img{
+    width: 200px;
+    margin: 15px;
+    border-radius: 100px;
+}
+.volume_div{
+    float: right;
+}
+#play_btn{
+    font-size: 25px;
+    background-color: rgb(204, 33, 167);
+    border-radius: 15px;
+}
+canvas{
+    border-radius: 15px;
+    border: 5px solid rgb(255, 255, 255);
+    animation: Border 5s 3;
+}
+@keyframes Border{
+    from{box-shadow: 5px 5px 5px rgb(0, 255, 255);}
+    to{box-shadow: 5px 5px 5px rgb(16, 129, 114);}
+}
